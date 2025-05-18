@@ -1,13 +1,10 @@
 import math
 
 def cuboid_properties(length, width, height):
-    # Calculate volume
     volume = length * width * height
     
-    # Calculate surface area
     surface_area = 2 * (length * width + width * height + height * length)
     
-    # Calculate body diagonal
     body_diagonal = math.sqrt(length**2 + width**2 + height**2)
     
     return volume, surface_area, body_diagonal
