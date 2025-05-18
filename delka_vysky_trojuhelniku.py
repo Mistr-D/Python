@@ -6,7 +6,6 @@ def delka_vysky_trojuhelniku(base, area):
     height = (2 * area) / base
     return height
 
-# Example usage
 try:
     base = float(input("Zadejte délku základny trojúhelníku: "))
     area = float(input("Zadejte obsah trojúhelníku: "))
