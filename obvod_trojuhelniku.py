@@ -4,7 +4,6 @@ def obvod_trojuhelniku(a, b, c):
         raise ValueError("Délky stran musí být kladné číslo.")
     return a + b + c
 
-# Příklad použití
 try:
     a = float(input("Zadejte délku první strany trojúhelníku: "))
     b = float(input("Zadejte délku druhé strany trojúhelníku: "))
