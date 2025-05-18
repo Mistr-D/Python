@@ -13,7 +13,6 @@ def vypocet_polomer_koule(objem):
     polomer = ((3 * objem) / (4 * math.pi)) ** (1/3)
     return polomer
 
-# Příklad použití
 try:
     objem = float(input("Zadejte objem koule: "))
     polomer = vypocet_polomer_koule(objem)
