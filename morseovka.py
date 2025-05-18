@@ -1,4 +1,3 @@
-# Slovník pro Morseovu abecedu
 morseovka = {
     'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 
     'F': '..-.', 'G': '--.', 'H': '....', 'I': '..', 'J': '.---', 
@@ -17,10 +16,9 @@ def text_do_morseovky(text):
         if znak in morseovka:
             preklad.append(morseovka[znak])
         else:
-            preklad.append('?')  # Neznámý znak
+            preklad.append('?') 
     return ' '.join(preklad)
 
-# Testovací vstup
 vstup = "Ahoj svet"
 vystup = text_do_morseovky(vstup)
 print(f"Text: {vstup}")
